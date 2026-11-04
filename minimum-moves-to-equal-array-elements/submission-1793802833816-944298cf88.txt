@@ -1,0 +1,13 @@
+class Solution {
+public:
+    int minMoves(vector<int>& nums) {
+        sort(begi)
+        long long moves = 0;
+        long long md = nums[nums.size()/2];
+        for(auto &i : nums){
+            moves += abs(i-md);
+        }
+
+        return moves/2;
+    }
+};

@@ -1,0 +1,10 @@
+class Solution {
+public:
+    int minMoves(vector<int>& nums) {
+        set<int> s;
+        for(auto i : nums){
+            s.insert(i);
+        }
+        int mx = 
+    }
+};

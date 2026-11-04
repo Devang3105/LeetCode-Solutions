@@ -1,0 +1,15 @@
+class Solution {
+public:
+    int minMoves(vector<int>& nums) {
+        set<long l> s;
+        for(auto i : nums){
+            s.insert(i);
+        }
+        long l mx = *max_element(begin(nums),end(nums));
+        long l moves=0;
+        for(auto i : s){
+            moves += abs(i-mx);
+        }
+        return moves;
+    }
+};

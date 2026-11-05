@@ -1,8 +1,0 @@
-class Solution {
-public:
-    int minMoves(vector<int>& nums) {
-        int mx = max(begin(a),end(a));
-        int count
-        for()
-    }
-};
